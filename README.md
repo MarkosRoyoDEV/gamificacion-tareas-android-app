@@ -11,6 +11,7 @@ Este repositorio contiene tanto el frontend (React Native) como el backend de mi
 - React Native CLI
 - Android Studio con emulador configurado
 - [Otros requisitos del backend]
+- SDK 21 o superior
 
 ## Instalación y configuración
 Ver las instrucciones en los README de cada carpeta.
