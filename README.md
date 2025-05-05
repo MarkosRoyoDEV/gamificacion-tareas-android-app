@@ -1,6 +1,6 @@
 # Mi Aplicación Completa
 
-Este repositorio contiene tanto el frontend (React Native) como el backend (Springboot, Jpa)de mi aplicación.
+Este repositorio contiene tanto el frontend (React Native) como el backend (Springboot, Jpa) de mi aplicación.
 
 ## Estructura
 - `/frontend`: Aplicación móvil desarrollada con React Native
