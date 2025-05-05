@@ -31,6 +31,9 @@ public class User {
   @OneToMany(mappedBy = "assignedTo")
   private List<Task> tasks = new ArrayList<>();
 
+  @OneToMany(mappedBy = "assignedTo")
+  private List<Reward> rewards = new ArrayList<>();
+
   public User() {
 
   }
@@ -97,5 +100,13 @@ public class User {
 
   public void setTasks(List<Task> tasks) {
     this.tasks = tasks;
+  }
+
+  public List<Reward> getRewards() {
+    return rewards;
+  }
+
+  public void setRewards(List<Reward> rewards) {
+    this.rewards = rewards;
   }
 }
